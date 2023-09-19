@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noticia Text', serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(circle at 55.29% 50%, #f4cda0 0, #f2c499 12.5%, #edb78d 25%, #e4a67e 37.5%, #d8906c 50%, #cb7a5c 62.5%, #c26851 75%, #bb5b4c 87.5%, #b8514c 100%);
+}
+
+.calc{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: #1C1C1C;
+    display: flex;
+    padding: 3em;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    width: 25em;
+}
+
+h1{
+   color: white;
+   margin: 1rem 0rem;
+}
+
+label{
+    color: #D4D4D2;
+    padding: 1rem 0rem ;
+    font-size: 1.5rem;
+}
+
+.entrada_calc{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input{
+    width: 12rem;
+    font-size: 1rem;
+}
+
+textarea{
+    width: 100%;
+    margin-top: 2em;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+button{
+    height: 3em;
+    width: 100%;
+    font-size: 1.5rem;
+    background-color:#cb7a5c;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+}
+
+#resultado_imc{
+    margin: 2em;
+    width: 19em;
+    height: 12em;
+    border-radius:10px ;
+    background-color: #D4D4D2;
+}
+
+#resultado_imc p{
+    margin: 0.5rem;
+    text-align: center;
+}
